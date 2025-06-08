@@ -1,0 +1,705 @@
+[
+    {
+        "index": 0,
+        "value": 0,
+        "major_arcana": true,
+        "name": "The Fool",
+        "upright": "Beginning, Innocence, Spontaneity, and A free spirit",
+        "reversed": "Holding back, Recklessness, and Risk-taking",
+        "reading": "The Fool is a card of new beginnings, opportunity and potential.\n Just like the young man, you are at the outset of your journey,\n standing at the cliff's edge, and about to take your first step into the unknown.\nEven though you don't know exactly where you are going, you are being called to commit yourself and follow your heart,\nno matter how crazy this leap of faith might seem to you.\nNow is a time when you need to trust where the Universe is taking you."
+    },
+
+    {
+        "index": 1,
+        "value": 1,
+        "major_arcana": true,
+        "name": "The Magician",
+        "upright": "Willpower, Desire, Creation, and Manifestation",
+        "reversed": "Trickery, Illusion, and Out of Touch"
+    },
+
+    {
+        "index": 2,
+        "value": 2,
+        "major_arcana": true,
+        "name": "The High Priestess",
+        "upright": "Intuition, The Unconciouse, and Inner Voice",
+        "reversed":"Lack of Balance, Silencing, and Repressed Feeling"
+    },
+
+    {
+        "index": 3,
+        "value": 3,
+        "major_arcana": true,
+        "name": "The Empress",
+        "upright": "Motherhood, Fertility, and Nature",
+        "reversed": "Dependence, Smothering, and Emptiness, Nosiness"
+    },
+
+    {
+        "index": 4,
+        "value": 4,
+        "major_arcana": true,
+        "name": "The Emporer",
+        "upright": "Authority, Structure, Control, and Fatherhood",
+        "reversed": "Tyranny, Rigidity, and Coldness" 
+    },
+
+    {
+        "index": 5,
+        "value": 5,
+        "major_arcana": true,
+        "name": "The Teacher",
+        "upright": "Tradition, Conformity, and Morality, Ethics",
+        "reversed": "Rebellion ,Subversion, and New Approach"
+    },
+
+    {
+        "index": 6,
+        "value": 6,
+        "major_arcana": true,
+        "name": "The Partners",
+        "upright": "Partnership, Duality, and Union",
+        "reversed":"Unbalanced, One Sidedness, and Disharmony"     
+    },
+
+    {
+        "index": 7,
+        "value": 7,
+        "major_arcana": true,
+        "name": "The Chariot",
+        "upright": "Direction, Control, and Willpower",
+        "reversed": "Loss of Control, Lacking Direction, and Aggression" 
+    },
+
+    {
+        "index": 8,
+        "value": 8,
+        "major_arcana": true,
+        "name": "Strength",
+        "upright": "Confidence, Courage, Compassion, and Focus",
+        "reversed":"Self Doubt, Weakness, and Insecurity"
+    },
+
+    {
+        "index": 9,
+        "value": 9,
+        "major_arcana": true,
+        "name": "The Hermit",
+        "upright": "Contemplation, Seeking Truth, and Guidance",
+        "reversed":"Loneliness, Isolation, and Lost Path"
+    },
+
+    {
+        "index": 10,
+        "value": 10,
+        "major_arcana": true,
+        "name": "The Wheel of Frtune",
+        "upright": "Change, Cyclicle, and Inevitability",
+        "reversed":"Lack of Control, Desperation, and Misfortune"
+    },
+
+    {
+        "index": 11,
+        "value": 11,
+        "major_arcana": true,
+        "name": "Justice",
+        "upright": "Cause and Effect ,Clarity, and Truth",
+        "reversed":"Dishonesty, Unaccountability, and Iniquity"
+    },
+
+    {
+        "index": 12,
+        "value": 12,
+        "major_arcana": true,
+        "name": "The Hanged Mouse",
+        "upright": "Sacrifice, Release, and Altruism",
+        "reversed":"Hesitation, Needless Loss, and Constraint"
+    },
+
+    {
+        "index": 13,
+        "value": 13,
+        "major_arcana": true,
+        "name": "Death",
+        "upright": "End of a Cycle, New Beginings, Change, and Metamorphosis",
+        "reversed": "Fear of Change, Stasis, Stagnation, and Decay"
+    },
+
+    {
+        "index": 14,
+        "value": 14,
+        "major_arcana": true,
+        "name": "Temperance",
+        "upright": "The Middle Path, Patience, and Finding Purpose",
+        "reversed":"Extremes, Excess, and Imbalance"
+    },
+
+    {
+        "index": 15,
+        "value": 15,
+        "major_arcana": true,
+        "name": "The Dragons",
+        "upright": "Addiction, Materialism, and Miscreance",
+        "reversed": "Freedom, Release, and Regaining Control"
+
+    },
+
+    {
+        "index": 16,
+        "value": 16,
+        "major_arcana": true,
+        "name": "The Tower",
+        "upright": "Upheaval, Broken Pride, and Disaster",
+        "reversed": "Avoiding Tragedy, Delayed Disaster, and Fear of Suffering"
+    },
+
+    {
+        "index": 17,
+        "value": 17,
+        "major_arcana": true,
+        "name": "The Stars",
+        "upright": "Hope, Faith, and Rejuvination",
+        "reversed":"Lacking Faith, Discouragment, and Insecurity"
+    },
+
+    {
+        "index": 18,
+        "value": 18,
+        "major_arcana": true,
+        "name": "The Moon",
+        "upright": "Unconciousnes, Illusions, and Intuition",
+        "reversed":"Confusion, Fear, and Misinterpretation"
+    },
+
+    {
+        "index": 19,
+        "value": 19,
+        "major_arcana": true,
+        "name": "The Sun",
+        "upright": "Joy, Success, Celebration, and Positivity",
+        "reversed": "Negativity, Depression, and Sorrow"
+    },
+
+    {
+        "index": 20,
+        "value": 20,
+        "major_arcana": true,
+        "name": "Judgement",
+        "upright": "Reflection, Reckoning, and Awareness",
+        "reversed":"Lacking Self Awareness, Doubt, and Self Loathing"
+    },
+
+    {
+        "index": 21,
+        "value": 21,
+        "major_arcana": true,
+        "name": "The World",
+        "upright": "Fulfillment, Harmony, and Completion",
+        "reversed":"Incompletion, Failure, and Lack of Closure"
+    },
+
+    {
+        "index": 22,
+        "value": 1,
+        "major_arcana": false,
+        "name": "Ace of Wands",
+        "upright": "Creation, Willpower, Inspiration, and Desire",
+        "reversed": "Lacking Energy, Lack of Passion, and Boredom"
+    },
+
+    {
+        "index": 23,
+        "value": 2,
+        "major_arcana": false,
+        "name": "2 of Wands",
+        "upright": "Planning, Making Decisions, and Leaving Home",
+        "reversed": "Fearing Change, Playing it Safe, and Bad Planning"
+    },
+
+    {
+        "index": 24,
+        "value": 3,
+        "major_arcana": false,
+        "name": "3 of Wands",
+        "upright": "Looking Ahead, Expansion, and Rapid Growth",
+        "reversed": "Obstacles, Delay, and Frustration"
+    },
+
+    {
+        "index": 25,
+        "value": 4,
+        "major_arcana": false,
+        "name": "4 of Wands",
+        "upright": "Community, Home, and Celebration",
+        "reversed": "Lacking Support, Transience, and Home Conflicts"
+    },
+
+    {
+        "index": 26,
+        "value": 5,
+        "major_arcana": false,
+        "name": "5 of Wands",
+        "upright": "Competition, Rivalry, and Conflict",
+        "reversed": "Avoiding Conflict, and Respecting Differences"
+    },
+
+    {
+        "index": 27,
+        "value": 6,
+        "major_arcana": false,
+        "name": "6 of Wands",
+        "upright": "Victory, Success, and Accolades",
+        "reversed": "Pride, Lacking Recognition, and Punishment"
+    },
+
+    {
+        "index": 28,
+        "value": 7,
+        "major_arcana": false,
+        "name": "7 of Wands",
+        "upright": "Perseverance, Defense, and Maintaining Control",
+        "reversed": "Give Up, Loss of Confidence, and Overwhelmed"
+    },
+
+    {
+        "index": 29,
+        "value": 8,
+        "major_arcana": false,
+        "name": "8 of Wands",
+        "upright": "Swift Action, Movement, and Quick Decisions",
+        "reversed": "Panic, Wait, and Slowdown"
+    },
+
+    {
+        "index": 30,
+        "value": 9,
+        "major_arcana": false,
+        "name": "9 of Wands",
+        "upright": "Resilience, Grit, and Last Stand",
+        "reversed": "Exhaustion, Fatigue, and Questioning Ones Motivations"
+    },
+
+    {
+        "index": 31,
+        "value": 10,
+        "major_arcana": false,
+        "name": "10 of Wands",
+        "upright": "Accomplishment, Responsibility, and Burden",
+        "reversed": "Inability to Delegate, Overstressed, and Burnt Out"
+    },
+
+    {
+        "index": 32,
+        "value": 11,
+        "major_arcana": false,
+        "name": "Page of Wands",
+        "upright": "Freedom, Exploration, and Excitment",
+        "reversed": "Lacking Direction, Procrastination, and Creating Conflict"
+    }, 
+    
+    {
+        "index": 33,
+        "value": 12,
+        "major_arcana": false,
+        "name": "Knight of Wands",
+        "upright": "Action, Adventure, and Courage",
+        "reversed": "Anger, Impulsiveness, and Recklessness"
+    },
+
+    {
+        "index": 34,
+        "value": 13,
+        "major_arcana": false,
+        "name": "Queen of Wands",
+        "upright": "Courage, Determination, and Joy",
+        "reversed": "Selfishness, Jealousy, and Insecurity"
+    },
+
+    {
+        "index": 35,
+        "value": 14,
+        "major_arcana": false,
+        "name": "King of Wands",
+        "upright": "The Big Picture, Leadership, and Overcoming Challenges",
+        "reversed": "Impulsive, Overbearing, and Unachievable Expectations"
+    },
+
+    {
+        "index": 36,
+        "value": 1,
+        "major_arcana": false,
+        "name": "Ace of Cups",
+        "upright": "New Feelings, Spirituality, and Intuition",
+        "reversed": "Emotional Loss, Blocks Creativity, and Emptiness"
+    },
+
+    {
+        "index": 37,
+        "value": 2,
+        "major_arcana": false,
+        "name": "2 of Cups",
+        "upright": "Unity, Partnership, and Connection",
+        "reversed": "Immbalance, Broken Communication, and Tension"
+    },
+
+    {
+        "index": 38,
+        "value": 3,
+        "major_arcana": false,
+        "name": "3 of Cups",
+        "upright": "Friendship, Community, and Happiness",
+        "reversed": "Overindulgence, Gossip, and Isolation"
+    },
+
+    {
+        "index": 39,
+        "value": 4,
+        "major_arcana": false,
+        "name": "4 of Cups",
+        "upright": "Apathy, Contemplation, and Disconnectedness",
+        "reversed": "Sudden Awareness, Choosing Happiness, and Acceptance"
+    },
+
+    {
+        "index": 40,
+        "value": 5,
+        "major_arcana": false,
+        "name": "5 of Cups",
+        "upright": "Loss, Grief, and Self Pity",
+        "reversed": "Acceptance, Moving On, and Finding Peace"
+    },
+
+    {
+        "index": 41,
+        "value": 6,
+        "major_arcana": false,
+        "name": "6 of Cups",
+        "upright": "Familiarity, Happy Memories, and Healing",
+        "reversed": "Moving Forward, Leaving Home, and Independence"
+    },
+
+    {
+        "index": 42,
+        "value": 7,
+        "major_arcana": false,
+        "name": "7 of Cups",
+        "upright": "Searching for Purpose, Choices, and Daydreaming",
+        "reversed": "Lack of Purpose, Diversion, and Confusion"
+    },
+
+    {
+        "index": 43,
+        "value": 8,
+        "major_arcana": false,
+        "name": "8 of Cups",
+        "upright": "Walking away, Disillusionment, and Leaving Behind",
+        "reversed": "Avoidance, Fearing Change, and Fear of Loss"
+    },
+
+    {
+        "index": 44,
+        "value": 9,
+        "major_arcana": false,
+        "name": "9 of Cups",
+        "upright": "Satisfaction, Emotional Stability, and Luxury",
+        "reversed": "Lack of Inner Joy, Smugness, and Dissatisfaction"
+    },
+
+    {
+        "index": 45,
+        "value": 10,
+        "major_arcana": false,
+        "name": "10 of Cups",
+        "upright": "Inner Happiness, Fullfillment, and Dreams Coming True",
+        "reversed": "Shattered Dreams, Broken Family, and Domestic Disharmony"
+    },
+
+    {
+        "index": 46,
+        "value": 11,
+        "major_arcana": false,
+        "name": "Page of Cups",
+        "upright": "Happy Surprise, Dreamer, and Sensitivity",
+        "reversed": "Emotional Immaturity, Insecurity, and Disappointment"
+    },
+
+    {
+        "index": 47,
+        "value": 12,
+        "major_arcana": false,
+        "name": "Knight of Cups",
+        "upright": "Following the Heart, Idealist, and Romantic",
+        "reversed": "Moodiness and Disappointment"
+    },
+
+    {
+        "index": 48,
+        "value": 13,
+        "major_arcana": false,
+        "name": "Queen of Cups",
+        "upright": "Compassion, Calm, and Comfort",
+        "reversed": "Martyrdom, Insecurity, and Dependence"
+    },
+
+    {
+        "index": 49,
+        "value": 14,
+        "major_arcana": false,
+        "name": "King of Cups",
+        "upright": "Compassion, Control, and Balance",
+        "reversed": "Coldness, Moodiness, and Bad Advice"
+    },
+
+    {
+        "index": 50,
+        "value": 1,
+        "major_arcana": false,
+        "name": "Ace of Swords",
+        "upright": "Break Through, Clarity, and Sharp Mind",
+        "reversed": "Confusion, Brutality, and Chaos"
+    },
+
+    {
+        "index": 51,
+        "value": 2,
+        "major_arcana": false,
+        "name": "2 of Swords",
+        "upright": "Difficult Choices, Indecision, and Stalemate",
+        "reversed": "Lesser of Two Evils, No Right Choice, and Confusion"
+    },
+
+    {
+        "index": 52,
+        "value": 3,
+        "major_arcana": false,
+        "name": "3 of Swords",
+        "upright": "Heartbreak, Suffering, and Grief",
+        "reversed": "Recovery, Forgiveness, and Moving On"
+    },
+
+    {
+        "index": 53,
+        "value": 4,
+        "major_arcana": false,
+        "name": "4 of Swords",
+        "upright": "Rest, Restoration, and Contemplation",
+        "reversed": "Restlessness, Burnout, and Stress"
+    },
+
+    {
+        "index": 54,
+        "value": 5,
+        "major_arcana": false,
+        "name": "5 of Swords",
+        "upright": "Unbridled Ambition, Winning at All Cost, and Sneakiness",
+        "reversed": "Lingering Resentment, Desire to Reconcile, and Forgivness"
+    },
+
+    {
+        "index": 55,
+        "value": 6,
+        "major_arcana": false,
+        "name": "6 of Swords",
+        "upright": "Transition, Leaving Behind, and Moving On",
+        "reversed": "Emotional Baggage, Unresolved Issues, and Resisting Transition"
+    },
+
+    {
+        "index": 56,
+        "value": 7,
+        "major_arcana": false,
+        "name": "7 of Swords",
+        "upright": "Deception, Trickery, as well as Tactics and Strategy",
+        "reversed": "Coming Clean, Rethinking Approach, and Deception"
+    },
+
+    {
+        "index": 57,
+        "value": 8,
+        "major_arcana": false,
+        "name": "8 of Swords",
+        "upright": "Imprisionment, Entrapment, and Self-Victimization",
+        "reversed": "Self- Acceptance, New Perspective, and Freedom"
+    },
+
+    {
+        "index": 58,
+        "value": 9,
+        "major_arcana": false,
+        "name": "9 of Swords",
+        "upright": "Anxiety, Hopelessness, and Trauma",
+        "reversed": "Hope, Reaching Out, and Despair"
+    },
+
+    {
+        "index": 59,
+        "value": 10,
+        "major_arcana": false,
+        "name": "10 of Swords",
+        "upright": "Failuer, Collapse, and Defeat",
+        "reversed": "Can't Get Worse, Only Upwards, and Inevitable End"
+    },
+
+    {
+        "index": 60,
+        "value": 11,
+        "major_arcana": false,
+        "name": "Page of Swords",
+        "upright": "Curiosity, Restlessness, and Mental Energy",
+        "reversed": "Deception, Manipulation, and All Talk"
+    },
+
+    {
+        "index": 61,
+        "value": 12,
+        "major_arcana": false,
+        "name": "Knight of Swords",
+        "upright": "Action, Impulsiveness, and Defending Beliefs",
+        "reversed": "No Direction, Disregarding Consequences, and Unpredictability"
+    },
+
+    {
+        "index": 62,
+        "value": 13,
+        "major_arcana": false,
+        "name": "Queen of Swords",
+        "upright": "Complexity, Perceptivness, and Clear Mindedness",
+        "reversed": "Cold Hearted, Cruel, and Bitterness"
+    },
+
+    {
+        "index": 63,
+        "value": 14,
+        "major_arcana": false,
+        "name": "King of Swords",
+        "upright": "Head over Heart, Discipline, and Truth",
+        "reversed": "Manipulative, Cruel, and Weakness"
+    },
+
+    {
+        "index": 64,
+        "value": 1,
+        "major_arcana": false,
+        "name": "Ace of Coins",
+        "upright": "Opportunity, Prosperity, and New Venture",
+        "reversed": "Lost Opportunity, Missed Chances, and Bad Investments"
+    },
+
+    {
+        "index": 65,
+        "value": 2,
+        "major_arcana": false,
+        "name": "2 of Coins",
+        "upright": "Balanced Decisions, Priority, and Adapting to Change",
+        "reversed": "Loss of Balance, Disorganization, and Overwhelmed"
+    },
+
+    {
+        "index": 66,
+        "value": 3,
+        "major_arcana": false,
+        "name": "3 of Coins",
+        "upright": "Teamwork, Collaboratin, and Building",
+        "reversed": "Lacking Teamwork, Disorganization,and Group Conflict"
+    },
+
+    {
+        "index": 67,
+        "value": 4,
+        "major_arcana": false,
+        "name": "4 of Coins",
+        "upright": "Conservation, Frugality, and Security",
+        "reversed": "Greediness, Stinginess, and Possessiveness"
+    },
+
+    {
+        "index": 68,
+        "value": 5,
+        "major_arcana": false,
+        "name": "5 of Coins",
+        "upright": "Need, Poverty, and Insecurity",
+        "reversed": "Recovery, Charity, and Improvement"
+    },
+
+    {
+        "index": 69,
+        "value": 6,
+        "major_arcana": false,
+        "name": "6 of Coins",
+        "upright": "Charity, Generosity, and Sharing",
+        "reversed": "Strings Attached, Stinginess, Power and Domination"
+    },
+
+    {
+        "index": 70,
+        "value": 7,
+        "major_arcana": false,
+        "name": "7 of Coins",
+        "upright": "Hard Work, Perseverance, and Diligence",
+        "reversed": "Work Without Result, Distractions, and Lack of Reward"
+    },
+
+    {
+        "index": 71,
+        "value": 8,
+        "major_arcana": false,
+        "name": "8 of Coins",
+        "upright": "Apprenticeship, Passion, and High Standards",
+        "reversed": "Lack of Passion, Uninspired, and Lacking Motivation"
+    },
+
+    {
+        "index": 72,
+        "value": 9,
+        "major_arcana": false,
+        "name": "9 of Coins",
+        "upright": "Fruits of Labor, Rewards, and Luxury",
+        "reversed": "Reckless Spending, Living Beyond Means, and False Success"
+    },
+
+    {
+        "index": 73,
+        "value": 10,
+        "major_arcana": false,
+        "name": "10 of Coins",
+        "upright": "Legacy, Culmination, and Inheritance",
+        "reversed": "Fleeting Success, Lack of Stability, and Lack of Resources"
+    },
+
+    {
+        "index": 74,
+        "value": 11,
+        "major_arcana": false,
+        "name": "Page of Coins",
+        "upright": "Ambition, Desire, and Diligence",
+        "reversed": "Lack of Commitment, Greediness, and Laziness"
+    },
+
+    {
+        "index": 75,
+        "value": 12,
+        "major_arcana": false,
+        "name": "Knight of Coins",
+        "upright": "Efficiency, Hard Work, and Responsibility",
+        "reversed": "Laziness, Obsessivness, and Work without Reward"
+    },
+
+    {
+        "index": 76,
+        "value": 13,
+        "major_arcana": false,
+        "name": "Queen of Coins",
+        "upright": "Practicallity, Creature Comforts, and Financial Security",
+        "reversed": "Self-Centeredness, Jealousy, and Smothering"
+    },
+
+    {
+        "index": 77,
+        "value": 14,
+        "major_arcana": false,
+        "name": "King of Coins",
+        "upright": "Abundance, Prosperity, and Security",
+        "reversed": "Greed, Indulgence, and Sensuality"
+    }
+]

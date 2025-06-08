@@ -1,0 +1,66 @@
+TODO for SuNoFes
+
+___Priority: Minimum Viable Product___
+
+* Fill in card descriptions. (Write write write)
+
+* Create a splash screen featuring the intro to Gabby using the dragons magic
+    - Test for persistent data (Make it only play the first time opening) 
+
+* create animations for returning cards to deck before returning focus back to Gabby
+
+
+___Polish and extras: Lore features___
+
+* Draw Gabby Fuzzy Images presplash screen Logo
+
+* Draw table cloth
+
+* Create Ouiji Baord screen (Question screen and name input)
+    * Draw ouiji Baord
+    * 
+
+* Create card gallery
+
+* Draw window_icon.png replacement (250x250)
+
+___ Long Polish ___
+
+* Multiple Gabby return intros.
+
+* Multiple Gabby Outros
+
+
+Dev Log:
+
+7/15/2024:
+    -Minor changes to long_reader function to accept character input.
+    - Partners card Write up.
+
+7/12/2024:
+    -Gabby Sketches, Oracle resketch, Oracle Dissapointed sketch.
+
+7/11/2024:
+    - Write ups for The Empress, The Emperor, and The Teacher.
+
+7/10/2024:
+    - Write up for The Fool, The Magician, and The Oracle.
+
+7/5/2024:
+    - Added Temporary Background and character sprite.
+    - Created label for single/daily card
+    - Created card return animation
+    - Minor script reorginizing and optimization.
+    - 
+
+7/2/2024:
+    - Removed uneeded Quick-Menu Options
+    - Removed uneeded Pause Menu Options
+    - implemented rollback block points
+    - Changed Menu default screen
+
+7/1/2024:
+    - Created Intro scene randomizer
+    - Added Persistent data for introduction scene
+    - Created Custom Options
+    - general optomization
