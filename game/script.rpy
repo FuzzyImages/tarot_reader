@@ -7,9 +7,8 @@ label main_menu:
 label start:
 
     scene black
-
+    play music bg_music volume 0.7 fadein 1.0
     if not persistent.met_gabby:
-        $ persistent.met_gabby = True
         jump intro_0
     
     elif persistent.gabby_gone == True:
@@ -17,17 +16,38 @@ label start:
 
     else:
         scene bg room
-        show gabby temp at right 
         with Dissolve(1.0)
         pause 0.5
-        jump expression "intro_" + str(renpy.random.randint(1, 10))
+        jump expression "intro_" + str(renpy.random.randint(1, 5))
 
 label lets_talk:
+    
+    show gabby concerned
+    if persistent.met_gabby == False:
+        g "Sorry but I havn't yet prepared for full tarot readings"
+
+        g "Currently I'm only able to do a single card reading.\nThese are better known as a one-card pull, or a daily draw."
+
+        g "You are going to want to focus on this single card and reflect on it for your day."
+
+        g 'Oh and I also only have the major arcana done and can only give you their upright meanings at this time. -.-'
+
+        show gabby talk
+        g "I hope that is ok friend. ^.^;"
+
+        $ persistent.met_gabby = True
+
+    else:
+        show gabby concerned
+        g "Sorry to say, I still have not completed the rest of the cards and their meanings.\nThese things take a lot more time than I expect some times. -.-;"
+        show gabby
+        g "But we can still do a daily draw if that's ok. Just like usual, focus on the card as Oracle makes her reading."
+
     jump one_card
 
 label one_card:
     
-    $ card_draw_2 = fool
+    $ card_draw_2 = renpy.random.choice(tarot_deck)
     $ tarot_deck.remove(card_draw_2)
 
     scene bg wood
@@ -36,30 +56,35 @@ label one_card:
     pause 0.5
 
     show card_b at off_screen_top
+    play sound card_slide_sfx
 
     $ renpy.block_rollback()
 
     show card_b at deck_sit with ease
 
-    o "Well then, shall we see what fate holds for you today?"
+    o "Well now traveler, shall we see what fate holds for you today?"
 
-    o "let's see, your card is...{w=0.5}"
+    o "let's see. Your card today is...{w=0.5}"
 
 
-    $ invert = coin_flip()
+    $ invert = False
 
     if invert == False:
 
         show card_flip_2
+        play sound card_flip_sfx
 
         pause 0.5
 
         o "... [card_draw_2.name]"
 
-        o "this card represents [card_draw_2.upright]"
+        o "This card represents [card_draw_2.keywords_upright]."
 
-        if persistent.long_read == True:
-            $ long_reader(o, card_draw_2.reading)
+        if persistent.card_descriptions == True:
+            $ card_draw_2.read_description()
+
+        if persistent.card_readings == True:
+            $ card_draw_2.do_reading()
 
     else:
 
@@ -75,32 +100,34 @@ label one_card:
         if persistent.long_read == True:
             $ long_reader(o, card_draw_2.inv_reading)
 
-    o "Focus on this card, let it linger through your mind as you choose the paths to walk through your day"
+    o "Focus on this card, let it linger through your mind as you choose the paths to walk through your day."
 
     o "Allow it to subtely nudge your fate and guide you onto easier paths to walk."
 
-    o "Though a warning, do not allow the mariad of negative possibilities cloud your vision. Allow it to simply be a beacon in the mists of uncertanty."
+    o "Though a warning, do not allow the myriad of possibilities cloud your vision. Allow it to simply be a beacon in the mists of uncertanty."
 
-    o "No matter what the card may say you still have a will, and hey, some times a rougher path may be worth the journey."
+    o "No matter what the cards may say, you still have a will of your own... Besides, some times a rougher road may be worth the journey."
 
     hide card_flip_2
     show single_return
+    play sound card_flip_sfx
 
     o "I hope your ventures through this cycle are fortunate. {w=0.5}"
 
     o "... and if not, well I hope a lesson is well learned for the future, for there is always something to be gained...{w=1.0} but only if you allow."
 
-    o "But, for now I can feel the bindings of the platform weakening..."
+    o "But, for now I can feel the threads connecting us begining to weaken..."
 
-    o "Merry meet.{w=0.5} Merry part.{w=0.5} And merry meet again."
+    o "Merry we meet,{w=0.5} merry we part,{w=0.5} and merry we meet again."
 
-    g "That means I hope to see you again, so please come and visit again ok...{w=3.0} Bye.{w=0.5}{nw}"
+    g "That's Oracles way of saying \"hope to see you again\", so please come and visit again ok...{w=3.0}Well...{w=1.0} bye.{w=0.5}{nw}"
 
+    scene black
     $ renpy.quit()
 
 
 label three_card:
-    $ card_draw_1 = fool
+    $ card_draw_1 = tarot_deck[0]
     $ tarot_deck.remove(card_draw_1)
     $ card_draw_2 = renpy.random.choice(tarot_deck)
     $ tarot_deck.remove(card_draw_2)

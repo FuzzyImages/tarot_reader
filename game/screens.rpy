@@ -564,6 +564,15 @@ screen about():
             if gui.about:
                 text "[gui.about!t]\n"
 
+            text _('{size=+12}Thanks for Visiting{size=-12}\n')
+            text _('This was a long project in the making. I started making my tarot deck back in 2023 and while I have finished the major arcana, the minor arcana are still a good ways from being done unfortunatly.\n\nI started this VN shortly after completing the major arcana (Start of 2024), but got in a cycle of project hopping and constant state of feeling I needed to learn more Python and general coding and improve my understanding of Renpy. Unfortunatly that ended up eating up a lot of time and became a seriouse distraction from getting anything complete.\n\nThat\'s why this year I joined SuNoFes 2025, in hopes to give myself a proper deadline and finally get this from just being an idea to being a piece of work others can enjoy. Right now it may only be an alpha version, but I quickly realized the scope of such a project as a tarot card reader ballooned into a much bigger project than I had expected it to be.\n\nI plan to add aditional features in the future and continue to build on this world, as this is technically only the start to Gabby\'s Meece and Mazes adventures to come. ^^')
+            text _("\n{size=+10}Coming Features{size=-10}\n")
+            text _("-More frames and BGs (Obviously a priority, had to rush a bit for time)\n-Minor arcana cards (Coins set currently sketched and being lined)\n-Inverted Readings (Will likely be added after other cards are completed and given text)\n-Card Gallery\n-3 card spread (This is technically already built, but I felt unique dialogs would be needed for past, present, and, future)\n-A lot more interactions and lore from Gabby.")
+            text _('\nand once again, thank you for playing. I have more games planned to come but I am but a one mouse team.\nMerry we meet, merry we part, and merry we meet again! ^.^\n')
+            text _('\n{size=+10}Credits{size=-10}\n')
+            text _('\nAll art and writing by Gabby Gibbson of Fuzzy Images Studio')
+            text _('\nMusic: "Fantasy Medival Mystery Ambient" byt, DeusLower')
+            text _('\nCard Flip SFX by Freesound_Community\n')
             text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
 
 
@@ -756,10 +765,10 @@ screen preferences():
                 vbox:
                     style_prefix "check"
                     label ("Tarot Options")
-                    textbutton ("Long Descriptions") action ToggleVariable("persistent.long_read")
-                    textbutton ("Lore Text") action ToggleVariable("persistent.lore_text")
-                    textbutton ("One a Day") action ToggleVariable("persistent.one_reading")
-                    textbutton ("Giraffe") action SetVariable("persistent.giraffe", True)
+                    textbutton ("{size=-8}Card Descriptions") action ToggleVariable("persistent.card_descriptions")
+                    textbutton ("{size=-8}Card Interpretations") action ToggleVariable("persistent.card_readings")
+                    #textbutton ("Lore") action ToggleVariable("persistent.lore_text")
+                    textbutton ("{size=-8}Giraffe") action SetVariable("persistent.giraffe", True)
 
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
@@ -818,15 +827,16 @@ screen preferences():
                             style "mute_all_button"
 
             ### DEV DEBUG ###
-            hbox:
-                box_wrap True
-                vbox:
-                    style_prefix "check"
-                    label ("Debug Options")
-                    textbutton ("Met Gabby") action ToggleVariable("persistent.met_gabby")
-                    textbutton ("Gabby Gone") action ToggleVariable("persistent.gabby_gone")
-                    textbutton ("Gabby Hurt") action ToggleVariable("persistent.gabby_hurt")
-                    textbutton ("Gabby Moody") action ToggleVariable("persistent.gabby_moody")
+            if debug == True:
+                hbox:
+                    box_wrap True
+                    vbox:
+                        style_prefix "check"
+                        label ("Debug Options")
+                        textbutton ("Met Gabby") action ToggleVariable("persistent.met_gabby")
+                        textbutton ("Gabby Gone") action ToggleVariable("persistent.gabby_gone")
+                        textbutton ("Gabby Hurt") action ToggleVariable("persistent.gabby_hurt")
+                        textbutton ("Gabby Moody") action ToggleVariable("persistent.gabby_moody")
 
 
 
